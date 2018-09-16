@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.coopermind.ex09.R;
-
+import ex10.com.example.coopermind.ex10.Carro;
 import java.util.List;
 
 public class CarrosAdapter extends BaseAdapter {
@@ -51,8 +51,8 @@ public class CarrosAdapter extends BaseAdapter {
         if(convertView == null) {
             convertView = LayoutInflater.from(ctx).inflate(R.layout.item_carro, null);
             holder = new ViewHolder();
-            holder.imgLogo = (ImageView) convertView.findViewById(R.id.imgLogo);
-            holder.txtModelo = (TextView) convertView.findViewById(R.id.txtModelo);
+            holder.imgLogo = convertView.findViewById(R.id.imgLogo);
+            holder.txtModelo = convertView.findViewById(R.id.txtModelo);
             holder.txtAno = convertView.findViewById(R.id.txtAno);
             holder.txtCombustivel = convertView.findViewById(R.id.txtCombustivel);
             convertView.setTag(holder);

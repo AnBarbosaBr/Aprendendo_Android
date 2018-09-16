@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/titulo"
+        android:text="@string/titulo_incluir"
         android:textColor="@color/colorBlack"
         android:textSize="@dimen/textH1"/>
 
@@ -16,28 +16,27 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:inputType="textPersonName"
-        android:hint="@string/dica"
         android:tooltipText="Digite seu nome."
-        android:id="@+id/edtNome"/>
+        android:id="@+id/edtModelo"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ckbHabilitar"
-        android:text="@string/habilitar"/>
+        android:id="@+id/ckbGasolina"
+        android:text="@string/combustivel_gasolina"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckbEtanol"
+        android:text="@string/combustivel_etanol"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idade"/>
-    <SeekBar
-        android:layout_width="match_parent"
+        android:text="@string/ano_fabricacao"/>
+    <EditText
+        android:layout_width="@dimen/textAno"
         android:layout_height="wrap_content"
-        android:max="200"
-        android:id="@+id/skbIdade" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtIdade"/>
+        android:inputType="number"
+        android:id="@+id/edtAno"/>
 
     <Spinner
         android:layout_width="wrap_content"
@@ -52,24 +51,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/rbOpcao1"
-            android:text="Opcao 1"/>
+            android:text="Novo"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/rbOpcao2"
-            android:text="Opcao 2"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rbOpcao3"
-            android:text="Opcao 3"/>
+            android:text="Usado"/>
     </RadioGroup>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnEnviar"
-        android:drawableStart="@drawable/ic_launcher_foreground"
+        android:drawableStart="@drawable/carro"
         android:id="@+id/btnEnviar"
         android:onClick="btnEnviarPressionado"/>
 </LinearLayout>

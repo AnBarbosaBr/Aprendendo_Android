@@ -4,4 +4,5 @@
     <dimen name="textH1">16sp</dimen>
     <dimen name="logo_width">72dp</dimen>
     <dimen name="logo_height">72dp</dimen>
+    <dimen name="textAno">100sp</dimen>
 </resources>

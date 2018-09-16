@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex09</string>
+    <string name="habilitar">Habilitar</string>
+    <string name="idade">Idade</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="titulo">Teste</string>
+    <string name="dica">Joao da Silva</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

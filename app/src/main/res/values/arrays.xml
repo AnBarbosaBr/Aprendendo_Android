@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="logos">
+        <item>@drawable/logo_vm</item>
+        <item>@drawable/logo_gm</item>
+        <item>@drawable/logo_fiat</item>
+        <item>@drawable/logo_ford</item>
+    </array>
+</resources>
